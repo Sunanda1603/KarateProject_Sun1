@@ -1,0 +1,15 @@
+<testsuite failures="1" name="src/test/java/FeatureFiles/karatefeature01.feature" skipped="0" tests="1" time="0.022808">
+  <testcase classname="src.test.java.FeatureFiles.karatefeature01" name="Karate Test case3" time="0.022808">
+    <failure message="karatefeature01.feature:25 - assert evaluated to false: c == 50">* def a = 30 .............................................................. passed
+* def b = 30 .............................................................. passed
+* def c = a + b ........................................................... passed
+* assert c == 50 .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: karatefeature01.feature:25 - assert evaluated to false: c == 50&#13;
+	at ✽.* assert c == 50 (karatefeature01.feature:25)&#13;
+
+* print "c = ", c ......................................................... skipped
+* karate.log("Test ended") ................................................ skipped</failure>
+  </testcase>
+</testsuite>

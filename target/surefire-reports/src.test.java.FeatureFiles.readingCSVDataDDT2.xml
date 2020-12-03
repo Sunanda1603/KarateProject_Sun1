@@ -1,0 +1,32 @@
+<testsuite failures="0" name="src/test/java/FeatureFiles/readingCSVDataDDT2.feature" skipped="0" tests="3" time="0.02168">
+  <testcase classname="src.test.java.FeatureFiles.readingCSVDataDDT2" name="CSV DDT Testing" time="0.008907">
+    <system-out>* def data = read('classpath:data.csv') ................................... passed
+* print "101, ABC, 20" .................................................... passed
+* def json1 = {"last_name" : ABC} ......................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.FeatureFiles.readingCSVDataDDT2" name="CSV DDT Testing" time="0.006534">
+    <system-out>* def data = read('classpath:data.csv') ................................... passed
+* print "101, ABC, 20" .................................................... passed
+* def json1 = {"last_name" : ABC} ......................................... passed
+* print json1 ............................................................. passed
+* def data = read('classpath:data.csv') ................................... passed
+* print "102, PQR, 25" .................................................... passed
+* def json1 = {"last_name" : PQR} ......................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.FeatureFiles.readingCSVDataDDT2" name="CSV DDT Testing" time="0.006239">
+    <system-out>* def data = read('classpath:data.csv') ................................... passed
+* print "101, ABC, 20" .................................................... passed
+* def json1 = {"last_name" : ABC} ......................................... passed
+* print json1 ............................................................. passed
+* def data = read('classpath:data.csv') ................................... passed
+* print "102, PQR, 25" .................................................... passed
+* def json1 = {"last_name" : PQR} ......................................... passed
+* print json1 ............................................................. passed
+* def data = read('classpath:data.csv') ................................... passed
+* print "103, JKL, 16" .................................................... passed
+* def json1 = {"last_name" : JKL} ......................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+</testsuite>

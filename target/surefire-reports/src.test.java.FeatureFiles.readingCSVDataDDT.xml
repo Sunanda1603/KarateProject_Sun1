@@ -1,0 +1,26 @@
+<testsuite failures="0" name="src/test/java/FeatureFiles/readingCSVDataDDT.feature" skipped="0" tests="3" time="0.023272">
+  <testcase classname="src.test.java.FeatureFiles.readingCSVDataDDT" name="CSV data driven testing" time="0.010258">
+    <system-out>* print "101 , ABC , 20" .................................................. passed
+* def json1 = {"last_name" : ABC} ......................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.FeatureFiles.readingCSVDataDDT" name="CSV data driven testing" time="0.005618">
+    <system-out>* print "101 , ABC , 20" .................................................. passed
+* def json1 = {"last_name" : ABC} ......................................... passed
+* print json1 ............................................................. passed
+* print "102 , PQR , 25" .................................................. passed
+* def json1 = {"last_name" : PQR} ......................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.FeatureFiles.readingCSVDataDDT" name="CSV data driven testing" time="0.007396">
+    <system-out>* print "101 , ABC , 20" .................................................. passed
+* def json1 = {"last_name" : ABC} ......................................... passed
+* print json1 ............................................................. passed
+* print "102 , PQR , 25" .................................................. passed
+* def json1 = {"last_name" : PQR} ......................................... passed
+* print json1 ............................................................. passed
+* print "103 , JKL , 16" .................................................. passed
+* def json1 = {"last_name" : JKL} ......................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+</testsuite>
